@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com.fxml"
+      fx:controller="com.tarkov.hideout.controller.MainViewController">
+    <Label text="Tarkov HideOut Manager" style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+    <TableView fx:id="itemTable">
+        <columns>
+            <TableColumn text="Название" fx:id="nameColumn"/>
+            <TableColumn text="Количество" fx:id="quantityColumn"/>
+        </columns>
+    </TableView>
+    <HBox spacing="10">
+        <TextField fx:id="itemNameField" promptText="Название предмета"/>
+        <TextField fx:id="itemQuantityField" promptText="Количество"/>
+        <Button text="Добавить" onAction="#addItem"/>
+    </HBox>
+</VBox>

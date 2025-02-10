@@ -1,0 +1,7 @@
+com\tarkov\hideout\controller\MainViewController.class
+com\tarkov\hideout\repository\ItemRepository.class
+com\tarkov\hideout\App.class
+com\tarkov\hideout\service\ItemService.class
+com\tarkov\hideout\model\Item.class
+com\tarkov\hideout\TarkovHideOutApplication.class
+com\tarkov\hideout\controller\ItemController.class
